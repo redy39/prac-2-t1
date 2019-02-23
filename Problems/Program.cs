@@ -4,7 +4,7 @@ namespace Problems
 {
     public class Program
     {
-        string Prefix(string input)
+        public static string Prefix(string input)
         {
             int len = input.Length;
             string[] arr = input.Split();
